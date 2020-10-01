@@ -17,3 +17,9 @@ while(number_of_guesses<=8):
         
     if (number_of_guesses>8):
         print("game over")
+        print("Press y to try again and n to close")
+        n1 = input()
+        if n1==y:
+            continue
+        else:
+            break
